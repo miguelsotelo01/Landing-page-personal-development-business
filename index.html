@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800;900&family=Open+Sans:wght@400;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+    <title>Landing page</title>
+</head>
+
+<body>
+  <!-- grupo 18 ACTIVIDADES HECHAS POR:
+    1)SANTIAGO ADRIAN CUDA
+    2)SOTELO MIGUEL ANGEL
+    3)TIAGO DAVID ARAGUAS
+  -->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-dark p-3">
+    <div class="container-fluid d-flex  justify-content-around align-items-center">
+        
+        <div id="container-logo">
+            <a class="navbar-brand" href="#">
+            <img src="logo.svg" alt="Icono">
+            </a>
+        </div>
+
+        <div id="container-nav-elements">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Quienes somos</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Como funciona</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">FAQS</a>
+                  </li>
+                  <li class="nav-item mx-3 " >
+                    <button class="btn btn-primary rounded-pill btn-block btn-nav" type="button">Login</button>
+                  </li>
+                </ul>
+          </div>
+      </div>
+    </div>
+</nav>
+
+
+
+    <div id="principal" class="position-relative">
+
+      <img src="banner-principal.jpg" class="img-fluid w-100" alt="">
+
+      <div id="texto-imagen" class="position-absolute top-50 start-50 translate-middle text-center">
+
+        <h2>Cada dia mejor</h2>
+        <p>La red mas eficiente de profesionales para tu desarrollo y bienestar personal</p>
+        <button class="btn btn-primary rounded-pill btn-block btn-nav">Comenzar</button>
+
+      </div>
+
+  </div>
+
+  <div id="quienes-somos" class="container-fluid">
+      <h3>CONOCENOS</h3>
+      <h2>Quienes somos</h2>
+      <p>En <b>Anima-T</b>colaboramos con la construcción de un mundo mejor a partir de empoderar y habilitar a las personas para que alcancen su mejor versión.
+        A través de esta plataforma, acercamos clientes y profesionales, brindando un espacio de conexión para facilitar un proceso hacia el bienestar emocional, el logro de objetivos y el desarrollo personal, en cualquier momento y en cualquier lugar.
+        </p>
+  </div>
+
+  <div id="ayuda" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+    
+      <h3>COMO FUNCIONA</h3>
+      <h2>¿Buscas ayuda?</h2>
+
+      <div id="container-tarjetas" class="d-flex gap-2">
+        <div class="d-flex flex-column align-items-center text-center">
+          <img src="icono-preguntas.svg" alt="">
+          <h2>01.</h2>
+          <p>Responde unas preguntas para conocer tu perfil y lo que buscás.</p>
+        </div>
+
+        <div class="d-flex flex-column align-items-center  text-center">
+          <img src="icono-profesionales.svg" alt="">
+          <h2>02.</h2>
+          <p>Accede al ranking de profesionales que construimos para ayudarte.</p>
+        </div>
+
+
+        <div class="d-flex flex-column align-items-center text-center">
+          <img src="icono-agenda.svg" alt="">
+          <h2>03.</h2>
+          <p>Responde unas preguntas para conocer tu perfil y lo que buscás.</p>
+        </div>
+    
+      </div>
+
+
+  </div>
+
+  <div id="haceClick"class="container-fluid d-flex flex-column justify-content-center align-items-center p-4">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-auto"><p class="d-inline">Si brindas ayuda y te interesa sumate</p></div>
+      <div class="col-auto"><button id="btnClick" class="btn btn-primary rounded-pill btn-block btn-nav d-inline" style="white-space: nowrap">Hace click aqui</button></div>
+    </div>
+ 
+  </div>
+
+  <div id="preguntas-frecuentes" class="d-flex flex-column align-items-center p-3">
+
+    <div class="p-4">
+      <h3 class="text-center">CONOCENOS</h3>
+      <h2>Preguntas frecuentes</h2>
+    </div>
+   
+
+    <div id="acordion-y-imagen" class="d-flex justify-content-center align-items-center">
+
+    <div id="acordion"  >
+      <div class="accordion rounded container-fluid" id="accordionExample">
+        <div class="accordion-item rounded shadow">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed rounded fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Pregunta 1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item rounded shadow">
+          <h2 class="accordion-header rounded" id="headingTwo">
+            <button class="accordion-button collapsed rounded fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Pregunta 2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item rounded shadow">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button rounded collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Pregunta 3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item rounded shadow">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button  rounded collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Pregunta 4
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item rounded shadow">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button rounded collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Pregunta 5
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="imagen-preguntas">
+      <img src="ilustracion-faqs.svg" class="h-100 img-fluid" style="max-height: 292px;" alt="">
+    </div>
+  </div>
+    </div>
+
+ <div class="position-relative">
+  <img src="banner-secundario.jpg" class="img-fluid w-100" alt="">
+  <div id="texto-comenzar" class="d-flex flex-column justify-content-center align-items-center position-absolute top-50 start-50 translate-middle text-center">
+      <p class="text-center pa-5">Desarróllate hacia tus sueños, fácil, rápido y desde cualquier lugar</p>
+      <button class="btn btn-primary rounded-pill btn-block btn-nav">Comenzar</button>
+  </div>
+  </div>
+
+  <footer>
+
+    <div id="footer-container-all" class="container-fluid">
+        <div id="footer-container" class="d-flex justify-content-between align-items-center">
+
+          <div id="contacto" class=" d-flex justify-content-center align-items-center text-center gap-3">
+            <a href="#">terminos y condiciones</a>
+            <a href="#">contactanos</a>
+          </div>
+
+          <div id="container-iconos" class="d-flex gap-3 text-center">
+            <div id="twitter" class="icono"><a href="#"><i class="lab la-facebook-f"></i></a></div>
+            <div id="twitter" class="icono"><a href="#"><i class="lab la-instagram"></i></a></div>
+            <div id="twitter" class="icono"><a href="#"><i class="lab la-linkedin-in"></i></a></div>
+
+        </div>
+        </div>
+         <p class="text-center p-3 pa-6">&copy; 2020 todos los derechos reservados - anima- t</p>
+      </div>
+      
+  </footer>
+
+</body>
+</html>

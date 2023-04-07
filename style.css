@@ -1,0 +1,298 @@
+
+    .navbar{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+    }
+    .btn-nav{
+        width: 120px;
+        background-color: #E21982;
+        color:white;
+        border-color: #E21982;
+        text-align: center;
+    }
+
+    .btn-nav:hover{
+        background-color: #E21982;
+        border-color: #E21982;
+    }
+
+
+#texto-imagen h2{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#texto-imagen p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 22px;
+    max-width: 600px;
+}
+
+#quienes-somos{
+    background-color: #E8E8E8;
+    text-align: center;
+    padding: 45px;
+}
+
+#quienes-somos h3{
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #E21982;
+}
+
+#quienes-somos h2{
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#quienes-somos p{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+#ayuda{
+    padding: 40px;
+}
+
+#ayuda h3{
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #E21982;
+}
+
+#ayuda h2{
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+
+#container-tarjetas h2{
+    font-size: 16px;
+    color: #E21982;
+    
+}
+
+
+#container-tarjetas p{
+    font-size: 16px;
+    max-width: 20em;
+    margin: 0 auto;
+}
+#haceClick{
+    background-color:  #E21982;
+}
+.d-inline{
+    border-color: #E8E8E8;
+    color: #E8E8E8;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.pa-5{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: 700;
+    
+}
+
+#btnClick{
+    width: fit-content;
+}
+
+#btnClick:hover{
+    border-color: white;
+}
+
+#btnClick:active{
+    border-color:#E21982;
+}
+
+#preguntas-frecuentes{
+    background-color:#E8E8E8;
+}
+
+#preguntas-frecuentes h3{
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #E21982;
+}
+
+#preguntas-frecuentes h2{
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+#acordion{
+    min-width:500px;
+    max-width: 500px;
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+
+
+
+
+#texto-comenzar p{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;   
+}
+
+#footer-container{
+    background-color:  #22193F;
+    border-bottom: 1px solid white;
+}
+
+#contacto a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#container-iconos{
+    margin-left: 20px;
+    padding: 20px 0px 10px 10px
+}
+
+.icono{
+    border-radius: 100px;
+    width: 25px;
+    background-color: white;
+}
+
+.lab{
+    color: #E21982;
+}
+
+#footer-container-all{
+    background-color: #22193F;
+    padding: 0px 40px;
+}
+.pa-6{
+    color: #E8E8E8;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+/*---------media query 991px-----------*/
+
+@media (max-width: 991px){
+    #texto-imagen h2{
+        font-size: 20px;
+    }
+    
+    #texto-imagen p{
+        font-size: 11px;
+    }
+
+    #texto-imagen button{
+        margin-top: 0px;
+        font-size: 12px;
+        height: 30px;
+    }
+    
+
+    #container-logo{
+        order: 2;
+    }
+
+    #container-nav-elements{
+        order: 1;
+    }
+
+    #quienes-somos{
+        padding: 20px;
+    }
+
+    #quienes-somos h3{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    
+    #quienes-somos h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    #quienes-somos p{
+        font-size: 12px;
+
+    }
+
+    #container-tarjetas p{
+        font-size: 12px;
+
+    }
+    
+    #btnClick{
+        margin-top: 8px;
+    }
+
+    #texto-comenzar p{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #texto-comenzar button{
+        font-size: 14px;
+    }
+    
+    #acordion-y-imagen{
+        flex-direction: column;
+    }
+
+    #acordion{
+        margin-top: 15px;
+        order: 2;
+        min-width: 450px;
+        max-width: 450px; 
+    }
+       
+}
+
+/*---------media query 640px-----------*/
+
+@media (max-width: 640px){
+
+    #texto-comenzar p{
+        font-size: 11px;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #texto-comenzar button{
+        font-size: 12px;
+
+    }
+
+
+    #contacto a{
+        font-size: 12px;
+        gap: 5px;
+    }
+
+
+    #acordion{
+        min-width: 350px;
+        max-width: 350px; 
+    }
+
+    #imagen-preguntas{
+        margin-right: 15px;
+    }
+    
+}
